@@ -1,0 +1,40 @@
+{
+  "name": "example-api-promocode",
+  "version": "1.0.0",
+  "description": "API promocode",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node ./server/app.js",
+    "test": "yarn test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fukoyamashisu/example-api-promocode.git"
+  },
+  "author": "fukoyamashisu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Fukoyamashisu/example-api-promocode/issues"
+  },
+  "homepage": "https://github.com/Fukoyamashisu/example-api-promocode#readme",
+  "devDependencies": {
+    "@babel/core": "7.2.2",
+    "@babel/node": "7.2.2",
+    "@babel/preset-env": "7.3.1",
+    "babel-loader": "8.0.5",
+    "eslint": "5.12.1",
+    "eslint-config-airbnb-base": "13.1.0",
+    "eslint-plugin-import": "2.15.0",
+    "jest": "24.0.0",
+    "nodemon": "1.18.9",
+    "webpack": "4.29.0"
+  },
+  "dependencies": {
+    "axios": "0.18.0",
+    "body-parser": "1.18.3",
+    "dotenv": "6.2.0",
+    "express": "4.16.4",
+    "moment": "2.24.0",
+    "mongoose": "5.4.6"
+  }
+}
